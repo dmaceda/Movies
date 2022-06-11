@@ -1,0 +1,54 @@
+.navbar {
+    height: 56px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #232527;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+.list a {
+    color: white;
+    height: 100%;
+    padding: 10px 10px;
+    border-bottom: 4px solid transparent;
+    border-radius: 5px;
+    margin: 2px
+}
+
+.list a:hover {
+    color:#FF70C8;
+    background-color: #303236;
+}
+
+.list a.active{
+    text-decoration: underline;
+    text-underline-position: under;
+    line-height: 5rem;
+    text-decoration-color: #FF70C8;
+}
+
+
+
+.logo-pelis {
+    color:white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+#logo {
+    margin: 10px;
+}
+.home, .fav {
+    text-decoration: none;
+}

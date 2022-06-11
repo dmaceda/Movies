@@ -1,0 +1,134 @@
+.cnt {
+    padding-top: 10px;
+}
+.form-container {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.form-container button {
+    margin-left: 20px;
+}
+.label {
+    padding-right: 10px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.busqueda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+
+#title:focus {
+    outline: none;
+
+}
+
+
+.boton-search {
+    background-color: rgba(255, 255, 255, 0);
+    border:none;
+    padding: 0%;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+#imge{
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(321deg) brightness(105%) contrast(101%);
+    }
+
+#imge:hover {
+    
+    filter: invert(65%) sepia(24%) saturate(2496%) hue-rotate(288deg) brightness(101%) contrast(102%);
+}
+
+
+.icon {
+    background-color: rgba(255, 255, 255, 0);
+    border:none;
+    padding-bottom: 10px;
+
+}
+
+.icon:hover {
+    cursor: pointer;
+    transition-duration: 500ms;
+    transform: scale(1.2);
+}
+
+
+
+.lista-peliculas {
+    width: 100%;
+    display: flex;
+    width: 70%;
+    color: aliceblue;
+    text-decoration:none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: #232527;
+    border-radius: 5px;
+}
+
+
+#year {
+    font-size: x-small;
+    padding: 0%;
+    margin: 0%;
+}
+.titulo {
+    color: aliceblue;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.titulo:hover{
+    color: #FF70C8;
+}
+
+
+#tit{
+    margin: 0%;
+}
+
+
+#post {
+    width: 100px;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+}
+
+
+
+.poster {
+    border-radius: 3px;
+}
+
+.poster:hover {
+    transition-duration: 500ms;
+    transform: scale(1.2)
+}
+
+.pel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+
+}

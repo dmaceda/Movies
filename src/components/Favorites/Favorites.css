@@ -1,0 +1,38 @@
+.cnt {
+    padding-top: 10px;
+}
+
+.container_fav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+
+.favs {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.bt{
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.list {
+    padding: 20px;
+}
