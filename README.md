@@ -1,4 +1,4 @@
-![Preview de la App ](https://github.com/dmaceda/Clima-App/blob/master/climamokup.png)
+![Preview de la App ](https://github.com/dmaceda/Movies/blob/master/movie.png)
 
 
 Link de la App : https://dmaceda.github.io/Movies/
