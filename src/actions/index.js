@@ -7,7 +7,7 @@ export function addMovieFavorite(payload) {
   
   export function getMovies(titulo) {
     return function(dispatch) {
-      return fetch("http://www.omdbapi.com/?apikey=1bc6c554&s=" + titulo)
+      return fetch("https://www.omdbapi.com/?apikey=1bc6c554&s=" + titulo)
         .then(response => response.json())
         .then(json => {
           dispatch({ type: "GET_MOVIES", payload: json });
@@ -21,7 +21,7 @@ export function addMovieFavorite(payload) {
 
   export function getMovieDetail(id) {
     return function(dispatch) {
-        return fetch("http://www.omdbapi.com/?apikey=1bc6c554&i=" + id)
+        return fetch("https://www.omdbapi.com/?apikey=1bc6c554&i=" + id)
           .then(response => response.json())
           .then(json => {
             dispatch({ type: "GET_MOVIE_DETAIL", payload: json });
