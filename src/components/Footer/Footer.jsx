@@ -7,7 +7,7 @@ const Footer = () => {
       <img className='logo' src={LOGO} alt='logo' width='100px'/>
       <ul className='links'>
         <li><a href='#'>Home</a></li>
-        <li><a href='#favorites'>Favorites</a></li>
+        <li><a href='/favs'>Favorites</a></li>
       </ul>
   
       <div className="footer__copyright">
