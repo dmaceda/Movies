@@ -9,6 +9,9 @@ class Movie extends React.Component {
 componentDidMount(){
     this.props.getMovieDetail(this.props.match.params.id)
 }
+componentWillUnmount(){
+    this.props.getMovieDetail('')
+}
 
     render() {
         return (

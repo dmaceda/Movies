@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Movies/static/css/main.52b2ae40.chunk.css",
+    "main.js": "/Movies/static/js/main.9d3d855c.chunk.js",
+    "main.js.map": "/Movies/static/js/main.9d3d855c.chunk.js.map",
+    "runtime-main.js": "/Movies/static/js/runtime-main.66354ea7.js",
+    "runtime-main.js.map": "/Movies/static/js/runtime-main.66354ea7.js.map",
+    "static/js/2.4c5d4116.chunk.js": "/Movies/static/js/2.4c5d4116.chunk.js",
+    "static/js/2.4c5d4116.chunk.js.map": "/Movies/static/js/2.4c5d4116.chunk.js.map",
+    "index.html": "/Movies/index.html",
+    "static/css/main.52b2ae40.chunk.css.map": "/Movies/static/css/main.52b2ae40.chunk.css.map",
+    "static/js/2.4c5d4116.chunk.js.LICENSE.txt": "/Movies/static/js/2.4c5d4116.chunk.js.LICENSE.txt",
+    "static/media/cancel.1c2963ee.png": "/Movies/static/media/cancel.1c2963ee.png",
+    "static/media/clapperboard.a426d496.png": "/Movies/static/media/clapperboard.a426d496.png",
+    "static/media/estrella.d0cbd94e.png": "/Movies/static/media/estrella.d0cbd94e.png",
+    "static/media/loupe.01572229.png": "/Movies/static/media/loupe.01572229.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.66354ea7.js",
+    "static/js/2.4c5d4116.chunk.js",
+    "static/css/main.52b2ae40.chunk.css",
+    "static/js/main.9d3d855c.chunk.js"
+  ]
+}
