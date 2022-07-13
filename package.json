@@ -1,5 +1,4 @@
 { 
-  "homepage": "https://dmaceda.github.io/Movies",
   "name": "movies-app",
   "version": "1.0.0",
   "dependencies": {
