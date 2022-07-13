@@ -29,12 +29,9 @@ export class Buscador extends Component {
     const { title } = this.state;
     return (
       <div className="contenedor">
-        <div className="busqueda">
+
         <form className="form-container" onSubmit={(e) => this.handleSubmit(e)}>
-          <div>
-            <label className="label" htmlFor="title">
             <button className="boton-search"  type="submit"><img id='imge'src={loupe} width='15px' alt="search" /></button>
-            </label>
             <input
               placeholder="Busca película o serie..."
               type="text"
@@ -42,10 +39,9 @@ export class Buscador extends Component {
               autoComplete="off"
               value={title}
               onChange={(e) => this.handleChange(e)}
+              className ='input-search'
             />
-          </div>
         </form>
-        </div>
         <ul>
          {this.props.movies ?.map( peli => 
          <div className="lista-peliculas" key={peli.imdbID}>

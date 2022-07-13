@@ -4,31 +4,24 @@
 .form-container {
     display:flex;
     flex-direction: row;
-    align-items: flex-start;
+    justify-content: center;
+    margin-top: 30px;
 }
 
-.form-container button {
-    margin-left: 20px;
-}
-.label {
-    padding-right: 10px;
+
+
+.input-search{
+    width: 20%;
 }
 
 .contenedor {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
 }
 
-.busqueda {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    
-}
+
+
 
 
 #title:focus {
@@ -40,7 +33,6 @@
 .boton-search {
     background-color: rgba(255, 255, 255, 0);
     border:none;
-    padding: 0%;
     color: aliceblue;
     cursor: pointer;
 }
@@ -72,9 +64,8 @@
 
 
 .lista-peliculas {
-    width: 100%;
     display: flex;
-    width: 70%;
+    width: 30%;
     color: aliceblue;
     text-decoration:none;
     margin-left: auto;
@@ -131,4 +122,25 @@
     align-items: flex-start;
     padding: 20px;
 
+}
+
+ /*********** MEDIA QUERIES (MEDIUM DEVICES ************/
+ @media screen and (max-width: 1024px) {
+    .input-search{
+        width: 50%;
+    }
+    .lista-peliculas {
+        width: 80%;
+    }
+}
+
+/*********** MEDIA QUERIES (SMALL DEVICES ************/
+@media screen and (max-width: 600px) {
+   
+    .input-search{
+        width: 50%;
+    }
+    .lista-peliculas {
+        width: 80%;
+    }
 }

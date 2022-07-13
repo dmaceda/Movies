@@ -9,8 +9,8 @@ export class ConnectedList extends Component {
 
   render() {
     return (
-      <div className="container_fav">
-        <h2 className="title">Películas Favoritas</h2>
+      <div id= 'favorites'className="container_fav">
+        <h2 className='title'>Películas Favoritas</h2>
         <ul>
           {this.props.movies && this.props.movies.map (peli =>
             <div key={peli.imdbID} className='favs'>

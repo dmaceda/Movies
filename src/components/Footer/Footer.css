@@ -1,0 +1,40 @@
+footer {
+    background-color: #232527;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 30rem;
+    color: white;
+
+}
+
+footer a {
+    color: var(--color-bg)
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto 3rem;
+}
+
+
+
+
+.logo {
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+
+.footer__socials a:hover {
+    background: transparent;
+    color: var(--color-bg);
+    border-color: var(--color-bg);
+}
+
+.footer__copyright {
+    margin-bottom: 6rem;
+    color: var(--color-bg);
+}

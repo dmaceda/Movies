@@ -23,7 +23,7 @@ componentWillUnmount(){
                <li>Pais: {this.props.movie.Country}</li>
                <li>Año: {this.props.movie.Year}</li>
                <li>Genero: {this.props.movie.Genre}</li>
-               <li>Dierector: {this.props.movie.Director}</li>
+               <li>Director: {this.props.movie.Director}</li>
                <li>Reparto: {this.props.movie.Actors}</li>
                </ul>
             </div>

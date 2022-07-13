@@ -5,12 +5,13 @@
 .container_fav {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
     margin-top: 50px;
     color: white;
     text-decoration: none;
     align-items: center;
 }
+
+
 
 .link {
     text-decoration: none;
@@ -35,4 +36,17 @@
 
 .list {
     padding: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .link {
+        font-size: medium;
+       }
+}
+
+/*********** MEDIA QUERIES (SMALL DEVICES ************/
+@media screen and (max-width: 600px) {
+   .link {
+    font-size: medium;
+   }
 }
