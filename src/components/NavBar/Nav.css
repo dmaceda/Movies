@@ -1,0 +1,33 @@
+.nav {
+  display:none;
+}
+
+   /*********** MEDIA QUERIES (MEDIUM DEVICES ************/
+   @media screen and (max-width: 1024px) {
+   
+    }
+    
+    /*********** MEDIA QUERIES (SMALL DEVICES ************/
+    @media screen and (max-width: 600px) {
+        .nav {
+            height: 56px;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background-color: #232527;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        
+                
+        .list a {
+            padding: 10px 20px;
+            
+        }
+        
+        
+        
+    }
